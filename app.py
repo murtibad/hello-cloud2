@@ -10,7 +10,7 @@ HTML = """
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <title>Buluttan Selam</title>
+  <title>MURTI'NİN HAREMİ</title>
   <style>
     body {font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #eef2f3;}
     h1 {color: #333;}
@@ -23,14 +23,14 @@ HTML = """
 </head>
 <body>
   <h1>Buluttan Selam</h1>
-  <p>adını yaz , selamını bırak</p>
+  <p>GEL ÇETLEŞELİM</p>
 
   <form method="POST">
     <input type="text" name="isim" placeholder="Adını yaz" required>
     <button type="submit">Gönder</button>
   </form>
 
-  <h3>Ziyaretçiler</h3>
+  <h3>gelen gidenler</h3>
   <ul>
     {% for ad in isimler %}
       <li>{{ ad }}</li>
