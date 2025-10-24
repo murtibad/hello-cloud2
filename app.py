@@ -3,7 +3,7 @@ import os, psycopg2
 
 app = Flask(__name__)  # <- DÜZELTİLDİ
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://murat:yE9n7WzbEIA3aVR3M1U5yvJ6ED6DfcWo@dpg-d3tjfl2li9vc73befqjg-a.oregon-postgres.render.com/hello_cloud2_db_qtdv")
 
 HTML = """
 <!doctype html>
