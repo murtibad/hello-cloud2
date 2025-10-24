@@ -22,7 +22,7 @@ HTML = """
   </style>
 </head>
 <body>
-  <h1>Buluttan Selam</h1>
+  <h1>MURTIGRAM</h1>
   <p>GEL ÇETLEŞELİM</p>
 
   <form method="POST">
